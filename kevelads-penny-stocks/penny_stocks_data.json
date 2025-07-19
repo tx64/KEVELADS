@@ -1,0 +1,212 @@
+[
+  {
+    "symbol": "SUZLON",
+    "company_name": "Suzlon Energy Ltd",
+    "current_price": 65.28,
+    "market_cap": 88799.56,
+    "sector": "Renewable Energy",
+    "pe_ratio": 42.86,
+    "eps": 1.52,
+    "52_week_high": 86.04,
+    "52_week_low": 46.15,
+    "predicted_price_1_year": 95.0,
+    "predicted_price_2_years": 125.0,
+    "profit_potential_months": 12,
+    "risk_level": "High",
+    "analyst_rating": "BUY",
+    "reasons": [
+      "Renewable energy boom",
+      "Government support for green energy",
+      "Order book growth"
+    ]
+  },
+  {
+    "symbol": "NMDC",
+    "company_name": "NMDC Ltd",
+    "current_price": 71.44,
+    "market_cap": 62808.74,
+    "sector": "Mining & Minerals",
+    "pe_ratio": 9.6,
+    "eps": 7.44,
+    "52_week_high": 82.96,
+    "52_week_low": 59.53,
+    "predicted_price_1_year": 85.0,
+    "predicted_price_2_years": 105.0,
+    "profit_potential_months": 8,
+    "risk_level": "Medium",
+    "analyst_rating": "HOLD",
+    "reasons": [
+      "Strong iron ore demand",
+      "Government backing",
+      "Export opportunities"
+    ]
+  },
+  {
+    "symbol": "NHPC",
+    "company_name": "NHPC Ltd",
+    "current_price": 76.91,
+    "market_cap": 77260.0,
+    "sector": "Power Generation",
+    "pe_ratio": 12.5,
+    "eps": 6.15,
+    "52_week_high": 118.4,
+    "52_week_low": 71.0,
+    "predicted_price_1_year": 95.0,
+    "predicted_price_2_years": 120.0,
+    "profit_potential_months": 10,
+    "risk_level": "Medium",
+    "analyst_rating": "BUY",
+    "reasons": [
+      "Hydroelectric projects",
+      "Clean energy demand",
+      "Government PSU"
+    ]
+  },
+  {
+    "symbol": "YESBANK",
+    "company_name": "Yes Bank Ltd",
+    "current_price": 32.45,
+    "market_cap": 65418.71,
+    "sector": "Banking",
+    "pe_ratio": 8.2,
+    "eps": 3.95,
+    "52_week_high": 45.2,
+    "52_week_low": 28.1,
+    "predicted_price_1_year": 42.0,
+    "predicted_price_2_years": 55.0,
+    "profit_potential_months": 18,
+    "risk_level": "High",
+    "analyst_rating": "HOLD",
+    "reasons": [
+      "Banking sector recovery",
+      "Digital transformation",
+      "Asset quality improvement"
+    ]
+  },
+  {
+    "symbol": "VODAFONEIDEA",
+    "company_name": "Vodafone Idea Ltd",
+    "current_price": 12.85,
+    "market_cap": 73348.23,
+    "sector": "Telecommunications",
+    "pe_ratio": -15.2,
+    "eps": -0.84,
+    "52_week_high": 18.9,
+    "52_week_low": 9.45,
+    "predicted_price_1_year": 18.0,
+    "predicted_price_2_years": 25.0,
+    "profit_potential_months": 15,
+    "risk_level": "Very High",
+    "analyst_rating": "SPECULATIVE",
+    "reasons": [
+      "5G rollout potential",
+      "Debt restructuring",
+      "Telecom sector consolidation"
+    ]
+  },
+  {
+    "symbol": "TRIDENT",
+    "company_name": "Trident Ltd",
+    "current_price": 45.2,
+    "market_cap": 15672.71,
+    "sector": "Textiles",
+    "pe_ratio": 18.5,
+    "eps": 2.44,
+    "52_week_high": 52.3,
+    "52_week_low": 38.1,
+    "predicted_price_1_year": 58.0,
+    "predicted_price_2_years": 72.0,
+    "profit_potential_months": 14,
+    "risk_level": "Medium",
+    "analyst_rating": "BUY",
+    "reasons": [
+      "Export demand recovery",
+      "Textile sector growth",
+      "Capacity expansion"
+    ]
+  },
+  {
+    "symbol": "RPOWER",
+    "company_name": "Reliance Power Ltd",
+    "current_price": 28.75,
+    "market_cap": 8950.25,
+    "sector": "Power Generation",
+    "pe_ratio": 22.1,
+    "eps": 1.3,
+    "52_week_high": 35.8,
+    "52_week_low": 22.45,
+    "predicted_price_1_year": 38.0,
+    "predicted_price_2_years": 48.0,
+    "profit_potential_months": 16,
+    "risk_level": "High",
+    "analyst_rating": "HOLD",
+    "reasons": [
+      "Power sector reforms",
+      "Renewable energy transition",
+      "Debt resolution"
+    ]
+  },
+  {
+    "symbol": "SPICEJET",
+    "company_name": "SpiceJet Ltd",
+    "current_price": 58.9,
+    "market_cap": 6120.01,
+    "sector": "Aviation",
+    "pe_ratio": 28.5,
+    "eps": 2.07,
+    "52_week_high": 75.2,
+    "52_week_low": 42.3,
+    "predicted_price_1_year": 72.0,
+    "predicted_price_2_years": 88.0,
+    "profit_potential_months": 12,
+    "risk_level": "High",
+    "analyst_rating": "BUY",
+    "reasons": [
+      "Aviation sector recovery",
+      "Domestic travel growth",
+      "Route expansion"
+    ]
+  },
+  {
+    "symbol": "SRICHAKRA",
+    "company_name": "Sri Chakra Cement Ltd",
+    "current_price": 37.5,
+    "market_cap": 850.25,
+    "sector": "Cement",
+    "pe_ratio": 15.8,
+    "eps": 2.37,
+    "52_week_high": 39.8,
+    "52_week_low": 3.46,
+    "predicted_price_1_year": 45.0,
+    "predicted_price_2_years": 60.0,
+    "profit_potential_months": 10,
+    "risk_level": "Medium",
+    "analyst_rating": "BUY",
+    "reasons": [
+      "Infrastructure demand",
+      "Cement sector growth",
+      "Regional expansion"
+    ]
+  },
+  {
+    "symbol": "MISHTANN",
+    "company_name": "Mishtann Foods Ltd",
+    "current_price": 6.79,
+    "market_cap": 731.7,
+    "sector": "Food Processing",
+    "pe_ratio": 2.2,
+    "eps": 3.08,
+    "52_week_high": 8.95,
+    "52_week_low": 5.2,
+    "predicted_price_1_year": 9.5,
+    "predicted_price_2_years": 12.0,
+    "profit_potential_months": 8,
+    "risk_level": "Medium",
+    "analyst_rating": "BUY",
+    "reasons": [
+      "Food processing boom",
+      "Export potential",
+      "Strong fundamentals"
+    ]
+  }
+]
