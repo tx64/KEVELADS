@@ -1,0 +1,29 @@
+#sonTwo,#sonOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sonTwo,#sonOne span {
+    font-size: 50px;
+}
+
+#father {
+    display: flex;
+    flex-direction: row;
+}
+
+#sonOne {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#sonTwo {
+    padding: 5px;
+}
+
+.fox {
+    font-weight: bold;
+}

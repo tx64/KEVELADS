@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEVELADS Technologies India - Top 10 Penny Stock Analysis 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__brand">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirz6973DGa8-a_1fERz893Hw4j_3VJuNw0ZEHuqvu22UTgLOPlq7siCswTVNPEroj8KcrdFLEP96AEFQChnMzg4f9m3WPQy3XRetxo0O7tIDBgKx81qD0eQxddmpFO4_Q4CyipP7XxDpz1m0oYJ0lqPPSGBqAXVKb-cJw8Em0GMnOlzWtDlwE6X5wRyoui/s16000/IMG_20250727_183701-removebg-preview.png" width="200">
+                </div>
+                <nav class="nav">
+                    <a href="https://xymp.tk/" class="nav__link nav__link--active">Home</a>
+                    <a href="analysis.html" class="nav__link">Analysis</a>
+                    <a href="disclaimer.html" class="nav__link">Disclaimer</a>
+                    <a href="about.html" class="nav__link">About</a>
+                </nav>
+            </div>
+             
+        </div>
+    </header>
+	
+	<div class="tagline"> <marquee> Welcome, Here you will find top 10 penny stocks to buy in india, 2025. We use AI to give best results. </marquee>
+			</div> <font size="0.5"><p>*Please read disclaimer before investing | Showed share price is not real time price, please check prices manually.</p> </font>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Market Overview Panel -->
+            <section class="market-overview">
+                <div class="overview-cards">
+                    <div class="overview-card">
+                        <div class="overview-card__header">
+                            <h3>Market Status</h3>
+                            <div class="market-status" id="marketStatus">
+                                <span class="status-indicator"></span>
+                                <span class="status-text">OPEN</span>
+                            </div>
+                        </div>
+                        <div class="overview-card__body">
+                            <p class="overview-date" id="currentDate">Saturday, July 19, 2025</p>
+                        </div>
+                    </div>
+                    
+                    <div class="overview-card">
+                        <div class="overview-card__header">
+                            <h3>Market Sentiment</h3>
+                            <div class="sentiment-indicator sentiment-indicator--positive">
+                                BULLISH
+                            </div>
+                        </div>
+                        <div class="overview-card__body">
+                            <p class="sentiment-desc">Strong growth potential across sectors</p>
+                        </div>
+                    </div>
+                    
+                    <div class="overview-card">
+                        <h3>Total Stocks</h3>
+                        <div class="stat-value" id="totalStocks">10</div>
+                        <p class="stat-desc">Analyzed penny stocks</p>
+                    </div>
+                    
+                    <div class="overview-card">
+                        <h3>Avg. Predicted Returns</h3>
+                        <div class="stat-value" id="avgReturns">+42.5%</div>
+                        <p class="stat-desc">Next 12 months</p>
+                    </div>
+                    
+                    <div class="overview-card">
+                        <h3>Top Performing Sector</h3>
+                        <div class="stat-value" id="topSector">Renewable Energy</div>
+                        <p class="stat-desc">Highest growth potential</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Filters and Search -->
+            <section class="filters-section">
+                <div class="filters-container">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" class="form-control search-input" placeholder="Search stocks...">
+                    </div>
+                    
+                    <div class="filters">
+                        <select id="sectorFilter" class="form-control filter-select">
+                            <option value="">All Sectors</option>
+                        </select>
+                        
+                        <select id="riskFilter" class="form-control filter-select">
+                            <option value="">All Risk Levels</option>
+                            <option value="Medium">Medium Risk</option>
+                            <option value="High">High Risk</option>
+                            <option value="Very High">Very High Risk</option>
+                        </select>
+                        
+                        <select id="ratingFilter" class="form-control filter-select">
+                            <option value="">All Ratings</option>
+                            <option value="BUY">BUY</option>
+                            <option value="HOLD">HOLD</option>
+                            <option value="SPECULATIVE">SPECULATIVE</option>
+                        </select>
+                        
+                        <select id="sortBy" class="form-control filter-select">
+                            <option value="symbol">Sort by Symbol</option>
+                            <option value="current_price">Current Price</option>
+                            <option value="potential_return">Potential Returns</option>
+                            <option value="profit_potential_months">Time to Profit</option>
+                            <option value="market_cap">Market Cap</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stock Cards Grid -->
+            <section class="stocks-grid" id="stocksGrid">
+                <!-- Stock cards will be dynamically generated here -->
+            </section>
+
+            <!-- Investment Calculator -->
+            <section class="calculator-section">
+                <div class="card">
+                    <div class="card__body">
+                        <h3>Investment Calculator</h3>
+                        <div class="calculator-form">
+                            <div class="form-group">
+                                <label class="form-label">Investment Amount (₹)</label>
+                                <input type="number" id="investmentAmount" class="form-control" placeholder="25000">
+                            </div>
+                            <div class="calculator-results" id="calculatorResults">
+                                <div class="result-item">
+                                    <span>Potential Returns (1 Year):</span>
+                                    <span id="returns1Year" class="return-value">₹0</span>
+                                </div>
+                                <div class="result-item">
+                                    <span>Potential Returns (2 Years):</span>
+                                    <span id="returns2Years" class="return-value">₹0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Stock Detail Modal -->
+    <div id="stockModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalStockName">Stock Analysis</h2>
+                <span class="close" id="closeModal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-grid">
+                    <div class="modal-section">
+                        <h3>Current Price</h3>
+                        <div class="price-display" id="modalCurrentPrice">₹0.00</div>
+                        <div class="price-change" id="modalPriceChange">+0.00%</div>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h3>Price Targets</h3>
+                        <div class="target-item">
+                            <span>1 Year Target:</span>
+                            <span id="modal1YearTarget" class="target-price">₹0.00</span>
+                        </div>
+                        <div class="target-item">
+                            <span>2 Year Target:</span>
+                            <span id="modal2YearTarget" class="target-price">₹0.00</span>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h3>Key Metrics</h3>
+                        <div class="metrics-grid">
+                            <div class="metric-item">
+                                <span>P/E Ratio:</span>
+                                <span id="modalPERatio">0.00</span>
+                            </div>
+                            <div class="metric-item">
+                                <span>EPS:</span>
+                                <span id="modalEPS">₹0.00</span>
+                            </div>
+                            <div class="metric-item">
+                                <span>Market Cap:</span>
+                                <span id="modalMarketCap">₹0.00 Cr</span>
+                            </div>
+                            <div class="metric-item">
+                                <span>52W High:</span>
+                                <span id="modal52WeekHigh">₹0.00</span>
+                            </div>
+                            <div class="metric-item">
+                                <span>52W Low:</span>
+                                <span id="modal52WeekLow">₹0.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h3>Investment Thesis</h3>
+                        <ul id="modalReasons" class="reasons-list">
+                        </ul>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h3>Risk Analysis</h3>
+                        <div class="risk-analysis">
+                            <div class="risk-level" id="modalRiskLevel">Medium</div>
+                            <div class="analyst-rating" id="modalAnalystRating">BUY</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+	
+	<section>
+            <p style="color:#7ba0bb; font-size: 0.98em; text-align:center;">
+                UPDATED v25.9.04 | INDIA
+            <br> <br> ALL RIGHTS RESERVED | COPYRIGHT (c) KEVELADS Technologies INDIA, 2025 | Coded by Aashish Pachar </br>
+			</p>
+        </section>
+	
+	
+</body>
+
+</html>
